@@ -83,5 +83,36 @@ export default {
         },
       ],
     },
+    {
+      label: 'Social media',
+      name: 'socialMedia',
+      widget: 'object',
+      fields: [
+        {
+          label: 'Facebook url',
+          name: 'facebookUrl',
+          widget: 'string',
+          required: true,
+        },
+        {
+          label: 'Instagram url',
+          name: 'instagramUrl',
+          widget: 'string',
+          required: true,
+        },
+        {
+          label: 'Spotify url',
+          name: 'spotifyUrl',
+          widget: 'string',
+          required: true,
+        },
+        {
+          label: 'YouTube url',
+          name: 'youTubeUrl',
+          widget: 'string',
+          required: true,
+        },
+      ],
+    },
   ],
 }

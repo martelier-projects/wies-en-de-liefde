@@ -19,4 +19,11 @@ export default interface Footer {
     label: string
     submit: string
   }
+
+  socialMedia: {
+    facebookUrl: string
+    instagramUrl: string
+    spotifyUrl: string
+    youTubeUrl: string
+  }
 }

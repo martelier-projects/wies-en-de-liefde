@@ -11,12 +11,17 @@ mainContent:
 foundation:
   title: Stichting Wies en de Liefde
   items:
-    - label: 'KvK nummer:'
-      value: '65984552'
+    - label: "KvK nummer:"
+      value: "65984552"
     - label: RSIN
-      value: '856344205'
+      value: "856344205"
 newsletter:
   title: Meld je hier aan voor onze Liefdesbrief
   label: Email Adres
   submit: Aanmelden
+socialMedia:
+  facebookUrl: https://www.facebook.com/wiesendeliefde
+  instagramUrl: https://www.instagram.com/wies.en.de.liefde/
+  spotifyUrl: https://open.spotify.com/artist/30DbCHu3gRmR5GdeT97IHy
+  youTubeUrl: https://www.youtube.com/channel/UCSkqHrqG9z5VVJJEwKvOEOw
 ---

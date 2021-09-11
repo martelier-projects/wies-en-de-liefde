@@ -10,7 +10,8 @@ import SocialList from '../SocialList'
 import styles from './styles.module.scss'
 
 export default function SiteFooter() {
-  const { mainContent, foundation, newsletter }: Footer = attributes
+  const { mainContent, foundation, newsletter, socialMedia }: Footer =
+    attributes
 
   return (
     <div id="contact" className={styles['site-footer']}>
@@ -23,7 +24,12 @@ export default function SiteFooter() {
         </div>
 
         <div className={styles['section']}>
-          <SocialList />
+          <SocialList
+            facebookUrl={socialMedia.facebookUrl}
+            instagramUrl={socialMedia.instagramUrl}
+            spotifyUrl={socialMedia.spotifyUrl}
+            youTubeUrl={socialMedia.youTubeUrl}
+          />
         </div>
 
         <div className={styles['section']}>
