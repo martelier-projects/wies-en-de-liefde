@@ -5,3 +5,4 @@ src/compiled-assets
 .vscode
 out
 .next
+/content
