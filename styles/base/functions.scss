@@ -1,12 +1,14 @@
+@use 'sass:math';
+
 /*
  * Transform value like 16 to em/rem value like 1em
  * Needed until Webpack transforms px values to rem automatically
  */
 @function em($value) {
-  @return ($value / 16) + 0em;
+  @return math.div($value, 16) + 0em;
 }
 @function rem($value) {
-  @return ($value / 16) + 0rem;
+  @return math.div($value, 16) + 0rem;
 }
 
 /**
