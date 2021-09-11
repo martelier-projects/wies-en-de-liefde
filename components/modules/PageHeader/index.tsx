@@ -7,8 +7,6 @@ export default function PageHeader({
   img,
   imageOutline = 'center',
 }: PageHeaderInterface) {
-  const alt = 'Afbeelding van de bus waar Wies en de Liefde optredens in geeft'
-
   return (
     <header className={styles['page-header']}>
       <div
