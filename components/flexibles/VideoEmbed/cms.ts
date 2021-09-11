@@ -1,4 +1,6 @@
-export default {
+import type NetlifyCmsField from '../../../interfaces/NetlifyCmsField'
+
+export default <NetlifyCmsField>{
   label: 'Video embed',
   name: 'video-embed',
   widget: 'object',
