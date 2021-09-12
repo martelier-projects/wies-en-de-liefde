@@ -10,6 +10,15 @@
   @include serif-font;
   text-decoration: none;
 }
+.tour-list__link:hover,
+.tour-list__link:focus {
+  color: $color-primary;
+
+  .tour-list__location,
+  .tour-list__place {
+    color: $color-primary;
+  }
+}
 
 .tour-list__text {
   display: flex;
@@ -27,8 +36,8 @@
   text-align: center;
 }
 .tour-list__place {
-  color: $brown;
   display: inline-block;
+  color: $brown;
 }
 .tour-list__venue {
   display: inline-block;
