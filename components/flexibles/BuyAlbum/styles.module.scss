@@ -1,0 +1,31 @@
+@import '../../../styles/base.scss';
+
+.buy-album {
+  @include row-bottom();
+  display: flex;
+}
+
+.buy-album__inner {
+  @include constrain(medium);
+  margin-left: auto;
+}
+
+.buy-album__image-container {
+  display: flex;
+}
+.buy-album__image {
+  display: inline-block;
+  flex: 1;
+  width: 100%;
+}
+.buy-album__caption {
+  @include block(small);
+  margin-top: gap(small-medium);
+
+  @include bp-min(small) {
+    margin-left: 0;
+  }
+  @include bp-min(medium) {
+    padding-left: 0;
+  }
+}

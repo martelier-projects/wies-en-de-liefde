@@ -52,6 +52,10 @@ sections:
 
 
       ZonderDagen, is een warm, boeiend en sfeervol debuutalbum geworden, dat luistert als een muzikale roadtrip en veel aandacht voor het woord bevat. Een verzameling afwisselende nummers, vol verrassende muzikale wendingen, die slim en tegelijk speels in elkaar zitten.
+  - type: buy-album
+    component: buy-album
+    text: Koop hier het debuutalbum ZonderDagen van Wies en de Liefde.Als je ons een
+      mailtje stuurt, ontvang je een betaallink en de CD in je brievenbus.
   - type: playlist
     component: playlist
     title: Muziek

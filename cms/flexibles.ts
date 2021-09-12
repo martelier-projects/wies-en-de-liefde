@@ -6,6 +6,7 @@ import playlist from '../components/flexibles/Playlist/cms'
 import text from '../components/flexibles/Text/cms'
 import videoEmbed from '../components/flexibles/VideoEmbed/cms'
 import tourList from '../components/flexibles/TourList/cms'
+import buyAlbum from '../components/flexibles/BuyAlbum/cms'
 
 export default [
   text,
@@ -16,4 +17,5 @@ export default [
   images,
   gallery,
   tourList,
+  buyAlbum,
 ]

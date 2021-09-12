@@ -8,6 +8,7 @@ import Text from '../../flexibles/Text'
 import Images from '../../flexibles/Images'
 import Gallery from '../../flexibles/Gallery'
 import TourList from '../../flexibles/TourList'
+import BuyAlbum from '../../flexibles/BuyAlbum'
 
 import styles from './styles.module.scss'
 
@@ -40,6 +41,9 @@ export default function FlexibleContent({
         }
         if (section.component === 'tour-list') {
           return <TourList key={`flexible-content-${index}`} {...section} />
+        }
+        if (section.component === 'buy-album') {
+          return <BuyAlbum key={`flexible-content-${index}`} {...section} />
         }
         return null
       })}
