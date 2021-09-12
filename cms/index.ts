@@ -1,7 +1,4 @@
-import bandMembers from './collections/bandMembers'
-import pages from './collections/pages'
-import singles from './collections/singles'
-import globals from './collections/globals'
+import collections from './collections'
 
 export default {
   backend: {
@@ -14,5 +11,5 @@ export default {
   public_folder: '/images',
   use_large_media_transforms_in_media_library: false,
 
-  collections: [pages, singles, bandMembers, globals],
+  collections,
 }

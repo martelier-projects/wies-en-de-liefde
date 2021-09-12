@@ -1231,6 +1231,11 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
+"@martijnnieuwenhuizen/generate-component@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@martijnnieuwenhuizen/generate-component/-/generate-component-0.6.0.tgz#0ef9ac8953e13ab51fae0323218442649e0f0c39"
+  integrity sha512-jMZCZudPn/BxROnRqXcVuj5UEMi0Ci6VWObZkDErL32TCiAvhs8S9mFSX9enI5P9aEgjybkBitbb9CySCvNAzw==
+
 "@napi-rs/triples@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@napi-rs/triples/-/triples-1.0.3.tgz#76d6d0c3f4d16013c61e45dfca5ff1e6c31ae53c"

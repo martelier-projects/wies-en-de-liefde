@@ -11,7 +11,7 @@ export default function ColumnText({
   return (
     <div className={styles['container']}>
       <section className={styles['column-text']} data-horizontal={horizontal}>
-        <h2 className={styles['column-text__title']}>{title}</h2>
+        {title && <h2 className={styles['column-text__title']}>{title}</h2>}
 
         <div className={styles['column-text__texts']}>
           <ReactMarkdown>{text}</ReactMarkdown>

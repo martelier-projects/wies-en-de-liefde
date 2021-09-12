@@ -10,7 +10,7 @@ export default <NetlifyCmsField>{
       label: 'Title',
       name: 'title',
       widget: 'string',
-      required: true,
+      required: false,
     },
     {
       label: 'Text',

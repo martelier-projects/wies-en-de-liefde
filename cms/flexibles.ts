@@ -5,6 +5,7 @@ import images from '../components/flexibles/Images/cms'
 import playlist from '../components/flexibles/Playlist/cms'
 import text from '../components/flexibles/Text/cms'
 import videoEmbed from '../components/flexibles/VideoEmbed/cms'
+import tourList from '../components/flexibles/TourList/cms'
 
 export default [
   text,
@@ -14,4 +15,5 @@ export default [
   bandMembers,
   images,
   gallery,
+  tourList,
 ]

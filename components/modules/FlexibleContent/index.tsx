@@ -7,6 +7,7 @@ import BandMembers from '../../flexibles/BandMembers'
 import Text from '../../flexibles/Text'
 import Images from '../../flexibles/Images'
 import Gallery from '../../flexibles/Gallery'
+import TourList from '../../flexibles/TourList'
 
 import styles from './styles.module.scss'
 
@@ -36,6 +37,9 @@ export default function FlexibleContent({
         }
         if (section.component === 'gallery') {
           return <Gallery key={`flexible-content-${index}`} {...section} />
+        }
+        if (section.component === 'tour-list') {
+          return <TourList key={`flexible-content-${index}`} {...section} />
         }
         return null
       })}

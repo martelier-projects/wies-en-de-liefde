@@ -1,0 +1,35 @@
+@import '../../../styles/base.scss';
+
+.tour-list {
+  @include block(small);
+}
+.tour-list__list {
+  @include bare-list;
+}
+.tour-list__link {
+  @include serif-font;
+  text-decoration: none;
+}
+
+.tour-list__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tour-list__date {
+  @include text-medium;
+  @include serif-font;
+}
+.tour-list__location {
+  @include heading-medium;
+  @include serif-font;
+  color: $black;
+  text-align: center;
+}
+.tour-list__place {
+  color: $brown;
+  display: inline-block;
+}
+.tour-list__venue {
+  display: inline-block;
+}
