@@ -20,6 +20,8 @@
 }
 .buy-album__caption {
   @include block(small);
+  display: flex;
+  flex-direction: column;
   margin-top: gap(small-medium);
 
   @include bp-min(small) {
@@ -28,4 +30,15 @@
   @include bp-min(medium) {
     padding-left: 0;
   }
+}
+
+.buy-album__link {
+  @include heading-medium;
+  @include serif-font;
+  margin-left: auto;
+  padding: gap(small) gap(medium-large);
+  // background-color: $yellow;
+  color: $yellow;
+  text-decoration: none;
+  // border-radius: 50px;
 }

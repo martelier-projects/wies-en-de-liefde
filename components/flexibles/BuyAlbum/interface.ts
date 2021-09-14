@@ -1,3 +1,4 @@
 export default interface BuyAlbum {
-    children: React.ReactNode;
+  text: string
+  buyLabel: string
 }

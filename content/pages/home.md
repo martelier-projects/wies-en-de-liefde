@@ -56,6 +56,7 @@ sections:
     component: buy-album
     text: Koop hier het debuutalbum ZonderDagen van Wies en de Liefde.Als je ons een
       mailtje stuurt, ontvang je een betaallink en de CD in je brievenbus.
+    buyLabel: Mail Wies
   - type: playlist
     component: playlist
     title: Muziek

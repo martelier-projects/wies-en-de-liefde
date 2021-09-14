@@ -16,6 +16,12 @@ export default <NetlifyCmsField>{
       modes: ['rich_text'],
     },
     {
+      label: 'Buy label',
+      name: 'buyLabel',
+      widget: 'string',
+      required: true,
+    },
+    {
       label: 'Component',
       name: 'component',
       widget: 'hidden',
