@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "@martijnnieuwenhuizen/generate-component": "^0.6.0",
+    "@netlify/plugin-nextjs": "^3.9.0",
     "@svgr/webpack": "^5.5.0",
     "@testing-library/dom": "^7.29.4",
     "@testing-library/jest-dom": "^5.11.9",
