@@ -55,12 +55,11 @@ sections:
     horizontal: true
     title: Het Album
     text: >-
-      17 September Debuutalbum Release ZonderDagen 
+      ZonderDagen, is een warm, boeiend en sfeervol debuutalbum geworden, dat
+      luistert als een muzikale roadtrip en veel aandacht voor het woord bevat.
+      \
 
-
-      ZonderDagen, is een warm, boeiend en sfeervol debuutalbum geworden, dat luistert als een muzikale roadtrip en veel aandacht voor het woord bevat. \
-
-      Een verzameling afwisselende nummers, vol verrassende muzikale wendingen, die slim en tegelijk speels in elkaar zitten.
+      Een verzameling afwisselende nummers, vol verrassende muzikale wendingen, die slim en tegelijk speels in elkaar zitten. Het zelfbedachte genre PopPoezië, is hoe de band hun muziek het liefste omschrijft.
   - type: buy-album
     component: buy-album
     text: >-
