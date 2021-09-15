@@ -20,7 +20,7 @@ sections:
   - type: video-embed
     location: center
     component: video-embed
-    source: https://youtu.be/cnTGFL4DN7M
+    source: https://www.youtube.com/embed/cnTGFL4DN7M
     title: Vergeet Mij Niet
   - type: column-text
     horizontal: false
@@ -30,13 +30,15 @@ sections:
       Onder de noemer ‘Victorie on Tour’ treedt Victorie buiten haar muren en
       heeft het
 
-      een tour geboekt voor lokaal talent Wies en de Liefde op een aantal bijzondere plekken in Noord-Holland. Wies en de Liefde is een graag geziene gast in Victorie. Door corona werd de release van het debuutalbum ‘Zonderdagen’ en de releaseshow in Victorie destijds geannuleerd, maar de plaat komt er nu dan toch.\
+      een tour geboekt voor lokaal talent Wies en de Liefde op een aantal bijzondere plekken in Noord-Holland. Wies en de Liefde is een graag geziene gast in Victorie. Door corona werd de release van het debuutalbum ‘ZonderDagen’ en de releaseshow in Victorie destijds geannuleerd, maar de plaat komt er nu dan toch.\
 
       Podium Victorie boekt er, naast een show in eigen pand, een mooie tour omheen.\
 
       \
 
-      Op het gebied van talentontwikkeling ziet Victorie het als taak om talent uit de regio een podium te bieden en zichtbaar te maken voor de wereld. Een samenwerking met Wies en de Liefde in de vorm van een tour bleek een schot in de roos. ‘Zonderdagen’ wordt een luisterconcert dat de snelheid uit de tijd haalt, en de haast naast het leven legt; waarin het leven en de liefde kwetsbaar worden bezongen en bespeeld door Wies en haar Mannen.
+      \
+
+      Op het gebied van talentontwikkeling ziet Victorie het als taak om talent uit de regio een podium te bieden en zichtbaar te maken voor de wereld. Een samenwerking met Wies en de Liefde in de vorm van een tour bleek een schot in de roos. ‘ZonderDagen’ wordt een luisterconcert dat de snelheid uit de tijd haalt, en de haast naast het leven legt; waarin het leven en de liefde kwetsbaar worden bezongen en bespeeld door Wies en haar Mannen.
 
 
       De verkoop is gestart. De tour ziet er als volgt uit:
