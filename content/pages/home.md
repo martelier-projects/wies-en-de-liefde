@@ -20,6 +20,11 @@ sections:
   - type: video-embed
     location: center
     component: video-embed
+    title: Bij Dag Een Man
+    source: https://www.youtube.com/embed/gN97TarciY4?controls=0
+  - type: video-embed
+    location: left
+    component: video-embed
     source: https://www.youtube.com/embed/cnTGFL4DN7M
     title: Vergeet Mij Niet
   - type: column-text
