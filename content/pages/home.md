@@ -37,7 +37,8 @@ sections:
 
       een tour geboekt voor lokaal talent Wies en de Liefde op een aantal bijzondere plekken in Noord-Holland. Wies en de Liefde is een graag geziene gast in Victorie. Door corona werd de release van het debuutalbum ‘ZonderDagen’ en de releaseshow in Victorie destijds geannuleerd, maar de plaat komt er nu dan toch.\
 
-      Podium Victorie boekt er, naast een show in eigen pand, een mooie tour omheen.\
+      Podium Victorie boekt er, naast een show in eigen pand, een mooie tour omheen.
+
 
       \
 
