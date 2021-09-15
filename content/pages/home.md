@@ -17,6 +17,11 @@ sections:
     component: video-embed
     title: Clip 'Waait het door me Heen'
     source: https://www.youtube.com/embed/b0Bk__D7UPg
+  - type: video-embed
+    location: center
+    component: video-embed
+    source: https://youtu.be/cnTGFL4DN7M
+    title: Vergeet Mij Niet
   - type: column-text
     horizontal: false
     component: column-text
@@ -27,37 +32,33 @@ sections:
 
       een tour geboekt voor lokaal talent Wies en de Liefde op een aantal bijzondere plekken in Noord-Holland. Wies en de Liefde is een graag geziene gast in Victorie. Door corona werd de release van het debuutalbum ‘Zonderdagen’ en de releaseshow in Victorie destijds geannuleerd, maar de plaat komt er nu dan toch.\
 
-      Podium Victorie boekt er, naast een show in eigen pand, een mooie tour omheen.
+      Podium Victorie boekt er, naast een show in eigen pand, een mooie tour omheen.\
+
+      \
+
+      Op het gebied van talentontwikkeling ziet Victorie het als taak om talent uit de regio een podium te bieden en zichtbaar te maken voor de wereld. Een samenwerking met Wies en de Liefde in de vorm van een tour bleek een schot in de roos. ‘Zonderdagen’ wordt een luisterconcert dat de snelheid uit de tijd haalt, en de haast naast het leven legt; waarin het leven en de liefde kwetsbaar worden bezongen en bespeeld door Wies en haar Mannen.
 
 
       De verkoop is gestart. De tour ziet er als volgt uit:
   - type: tour-list
     component: tour-list
   - type: column-text
-    horizontal: false
-    component: column-text
-    text: Op het gebied van talentontwikkeling ziet Victorie het als taak om talent
-      uit de regio een podium te bieden en zichtbaar te maken voor de wereld.
-      Een samenwerking met Wies en de Liefde in de vorm van een tour bleek een
-      schot in de roos. ‘Zonderdagen’ wordt een luisterconcert dat de snelheid
-      uit de tijd haalt, en de haast naast het leven legt; waarin het leven en
-      de liefde kwetsbaar worden bezongen en bespeeld door Wies en haar Mannen.
-  - type: column-text
     component: column-text
     horizontal: true
     title: Het Album
     text: >-
-      Wies en de Liefde bestaat inmiddels zes jaar en zij brengen in September
-      2021, na een lange uitstelperiode vanwege Covid, hun
-      debuutalbum ‘ZonderDagen' uit. Ook gaat de band in Oktober in première met
-      hun gelijknamige luisterconcert.
+      17 September Debuutalbum Release ZonderDagen 
 
 
-      ZonderDagen, is een warm, boeiend en sfeervol debuutalbum geworden, dat luistert als een muzikale roadtrip en veel aandacht voor het woord bevat. Een verzameling afwisselende nummers, vol verrassende muzikale wendingen, die slim en tegelijk speels in elkaar zitten.
+      ZonderDagen, is een warm, boeiend en sfeervol debuutalbum geworden, dat luistert als een muzikale roadtrip en veel aandacht voor het woord bevat. \
+
+      Een verzameling afwisselende nummers, vol verrassende muzikale wendingen, die slim en tegelijk speels in elkaar zitten.
   - type: buy-album
     component: buy-album
-    text: Koop hier het debuutalbum ZonderDagen van Wies en de Liefde.Als je ons een
-      mailtje stuurt, ontvang je een betaallink en de CD in je brievenbus.
+    text: >-
+      Koop hier het debuutalbum ZonderDagen van Wies en de Liefde.\
+
+      Als je ons een mailtje stuurt, ontvang je een betaallink en de CD in je brievenbus.
     buyLabel: Mail Wies
   - type: playlist
     component: playlist
