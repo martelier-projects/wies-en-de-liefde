@@ -50,6 +50,17 @@ sections:
       De verkoop is gestart. De tour ziet er als volgt uit:
   - type: tour-list
     component: tour-list
+  - type: images
+    component: images
+    imageOne: /images/norma-fonds-logo-wit-transparant.png
+    imageTwo: /images/nhpop_ld-o-300x79.png
+    imageThree: /images/header-popkanjers2-logo.png
+  - type: column-text
+    horizontal: false
+    component: column-text
+    title: ""
+    text: ZonderDagen kan mede bestaan door de hulp van het Norma Fonds en NH Pop,
+      PopKanjers
   - type: column-text
     component: column-text
     horizontal: true
