@@ -69,7 +69,9 @@ sections:
     text: >-
       Koop hier het debuutalbum ZonderDagen van Wies en de Liefde.\
 
-      Als je ons een mailtje stuurt, ontvang je een betaallink en de CD in je brievenbus.
+      Als je ons een mailtje stuurt, ontvang je een betaallink en de CD in je brievenbus.\
+
+      €20 + €4,10 verzendkosten.
     buyLabel: Mail Wies
   - type: playlist
     component: playlist
