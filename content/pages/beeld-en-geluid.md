@@ -16,10 +16,12 @@ sections:
         label: Band
       - label: Clip 'Waait het door me Heen'
         embedUrl: https://www.youtube.com/embed/b0Bk__D7UPg
-      - embedUrl: https://www.youtube.com/embed/4bSnCgDI5t0
-        label: Verder Weg | Ruinekerk 2019
+      - label: Vergeet Mij Niet
+        embedUrl: "https://www.youtube.com/embed/cnTGFL4DN7M "
       - image: /images/band-staand.jpg
         label: Band
+      - embedUrl: https://www.youtube.com/embed/4bSnCgDI5t0
+        label: Verder Weg | Ruinekerk 2019
       - embedUrl: https://www.youtube.com/embed/DUN0svgLOA8?controls=0
         label: "Deurmatsessie Victorie "
       - image: null
