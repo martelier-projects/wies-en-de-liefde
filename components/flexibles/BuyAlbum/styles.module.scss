@@ -11,7 +11,9 @@
 }
 
 .buy-album__image-container {
-  display: flex;
+  // display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 
   @include bp-min(small) {
     padding-left: gap(large);
@@ -21,9 +23,9 @@
   }
 }
 .buy-album__image {
-  display: inline-block;
-  flex: 1;
-  width: 100%;
+  display: block;
+  // flex: 1;
+  // width: 100%;
 }
 .buy-album__caption {
   @include block(small);
