@@ -11,7 +11,6 @@
 }
 
 .buy-album__image-container {
-  // display: flex;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
@@ -24,8 +23,6 @@
 }
 .buy-album__image {
   display: block;
-  // flex: 1;
-  // width: 100%;
 }
 .buy-album__caption {
   @include block(small);
