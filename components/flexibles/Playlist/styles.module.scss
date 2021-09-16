@@ -3,6 +3,7 @@
 .container {
   @include row-top(small);
   @include row-bottom(large);
+  overflow-x: clip;
 }
 
 .player {
@@ -22,23 +23,24 @@
   align-items: center;
   color: $white;
 }
-.playlist:before {
+
+$width: calc(25rem + 50vw);
+$width-large: 45rem;
+.playlist__background {
   content: '';
   z-index: -1;
   position: absolute;
-  top: -5rem;
+  top: 50%;
   left: 50%;
-  width: 100vw;
-  max-width: 30rem;
-  height: 100vw;
-  max-height: 30rem;
+  width: $width;
+  height: $width;
   background-color: $color-primary;
   border-radius: 50%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
 
-  @include bp-min(medium) {
-    max-width: 35rem;
-    max-height: 35rem;
+  @include bp-min(small) {
+    width: $width-large;
+    height: $width-large;
   }
 }
 

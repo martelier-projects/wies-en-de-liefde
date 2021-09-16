@@ -15,15 +15,15 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 .sponsor-logo-list__image {
   flex: 1;
   max-width: 13rem;
-  margin-right: gap(huge);
+  margin: gap(medium) gap(huge);
 }
 .sponsor-logo-list__text {
   @include constrain(tiny);
   margin-top: gap(medium);
-  margin-right: gap(large);
   text-align: center;
 }

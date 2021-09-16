@@ -56,6 +56,7 @@ export default function PlayList({ title }: PlaylistInterface) {
             ))}
           </ol>
         </div>
+        <div className={styles['playlist__background']} />
       </div>
     </div>
   )
