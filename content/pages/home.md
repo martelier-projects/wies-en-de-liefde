@@ -22,8 +22,8 @@ sections:
     component: column-text
     title: VICTORIE ON TOUR PRESENTS WIES EN DE LIEFDE
     text: >-
-      Onder de noemer ‘Victorie on Tour’ treedt Victorie buiten haar muren en
-      heeft het
+      Onder de noemer ‘Victorie on Tour’ treedt Podium Victorie buiten haar
+      muren en heeft het
 
       een tour geboekt voor lokaal talent Wies en de Liefde op een aantal bijzondere plekken in Noord-Holland. Wies en de Liefde is een graag geziene gast in Victorie. Door corona werd de release van het debuutalbum ‘ZonderDagen’ en de releaseshow in Victorie destijds geannuleerd, maar de plaat komt er nu dan toch.\
 
