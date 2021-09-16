@@ -1,0 +1,29 @@
+@import '../../../styles/base.scss';
+
+.sponsor-logo-list {
+  @include block(huge);
+  @include row(small);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsor-logo-list__title {
+  @include heading-large;
+}
+.sponsor-logo-list__image-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.sponsor-logo-list__image {
+  flex: 1;
+  max-width: 13rem;
+  margin-right: gap(huge);
+}
+.sponsor-logo-list__text {
+  @include constrain(tiny);
+  margin-top: gap(medium);
+  margin-right: gap(large);
+  text-align: center;
+}

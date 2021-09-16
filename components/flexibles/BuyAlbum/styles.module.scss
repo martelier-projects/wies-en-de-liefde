@@ -12,6 +12,13 @@
 
 .buy-album__image-container {
   display: flex;
+
+  @include bp-min(small) {
+    padding-left: gap(large);
+  }
+  @include bp-min(large) {
+    padding-left: 0;
+  }
 }
 .buy-album__image {
   display: inline-block;
@@ -32,13 +39,31 @@
   }
 }
 
+.buy-album__link-icon {
+  display: flex;
+  align-items: center;
+  padding-left: gap(small);
+  transform: rotate(0deg);
+  transition: 0.2s transform;
+}
+
 .buy-album__link {
   @include heading-medium;
   @include serif-font;
+  display: flex;
+  align-items: center;
   margin-left: auto;
   padding: gap(small) gap(medium-large);
-  // background-color: $yellow;
   color: $yellow;
   text-decoration: none;
-  // border-radius: 50px;
+  transition: 0.2s color;
+}
+
+.buy-album__link:hover,
+.buy-album__link:focus {
+  color: $color-primary;
+
+  .buy-album__link-icon {
+    transform: rotate(-16deg);
+  }
 }

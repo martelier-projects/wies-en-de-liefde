@@ -9,6 +9,7 @@ import Images from '../../flexibles/Images'
 import Gallery from '../../flexibles/Gallery'
 import TourList from '../../flexibles/TourList'
 import BuyAlbum from '../../flexibles/BuyAlbum'
+import SponsorLogoList from '../../flexibles/SponsorLogoList'
 
 import styles from './styles.module.scss'
 
@@ -44,6 +45,11 @@ export default function FlexibleContent({
         }
         if (section.component === 'buy-album') {
           return <BuyAlbum key={`flexible-content-${index}`} {...section} />
+        }
+        if (section.component === 'sponsor-logo-list') {
+          return (
+            <SponsorLogoList key={`flexible-content-${index}`} {...section} />
+          )
         }
         return null
       })}

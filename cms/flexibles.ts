@@ -7,6 +7,7 @@ import text from '../components/flexibles/Text/cms'
 import videoEmbed from '../components/flexibles/VideoEmbed/cms'
 import tourList from '../components/flexibles/TourList/cms'
 import buyAlbum from '../components/flexibles/BuyAlbum/cms'
+import sponsorLogoList from '../components/flexibles/SponsorLogoList/cms'
 
 export default [
   text,
@@ -18,4 +19,5 @@ export default [
   gallery,
   tourList,
   buyAlbum,
+  sponsorLogoList,
 ]
