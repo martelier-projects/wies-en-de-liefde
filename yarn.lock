@@ -6890,6 +6890,11 @@ react-dom@^17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
+react-ga4@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/react-ga4/-/react-ga4-1.0.6.tgz#35d3da353b8107da005de1cd2f616a6549762c05"
+  integrity sha512-sOMMBjIgf5/xzsBEZHUu1/x2155oPKhOKwibpLbkdT+4yLNOfcpqVF5CE4M5neB+7y56nqKHXt7Jv0HFYv1QTg==
+
 react-intersection-observer@^8.31.0:
   version "8.32.1"
   resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-8.32.1.tgz#9b949871eb35eb1fc730732bbf8fcfaaaf3f5b02"
