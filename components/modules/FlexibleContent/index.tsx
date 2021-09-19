@@ -10,6 +10,7 @@ import Gallery from '../../flexibles/Gallery'
 import TourList from '../../flexibles/TourList'
 import BuyAlbum from '../../flexibles/BuyAlbum'
 import SponsorLogoList from '../../flexibles/SponsorLogoList'
+import EmailSignUp from '../../flexibles/EmailSignUp'
 
 import styles from './styles.module.scss'
 
@@ -50,6 +51,9 @@ export default function FlexibleContent({
           return (
             <SponsorLogoList key={`flexible-content-${index}`} {...section} />
           )
+        }
+        if (section.component === 'email-sign-up') {
+          return <EmailSignUp key={`flexible-content-${index}`} {...section} />
         }
         return null
       })}

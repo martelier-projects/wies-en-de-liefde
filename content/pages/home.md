@@ -17,6 +17,14 @@ sections:
     component: video-embed
     title: Bij Dag Een Man
     source: https://www.youtube.com/embed/gN97TarciY4?controls=0
+  - type: email-sign-up
+    component: email-sign-up
+    text: Wil je weten waar je ons live kunt zien en wil je als eerste op de hoogte
+      worden gehouden van alle informatie over Wies en de Liefde? Meld je dan
+      aan voor onze Liefdesbrief.
+    title: Nieuwsbrief
+    emailLabel: Email Adres
+    submitLabel: Aanmelden
   - type: column-text
     horizontal: false
     component: column-text

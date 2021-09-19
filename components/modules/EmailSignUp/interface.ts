@@ -1,5 +1,7 @@
 export default interface EmailSignUp {
-  title: string
   label: string
   submit: string
+
+  title?: string
+  text?: string
 }

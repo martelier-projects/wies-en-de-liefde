@@ -8,6 +8,7 @@ import videoEmbed from '../components/flexibles/VideoEmbed/cms'
 import tourList from '../components/flexibles/TourList/cms'
 import buyAlbum from '../components/flexibles/BuyAlbum/cms'
 import sponsorLogoList from '../components/flexibles/SponsorLogoList/cms'
+import emailSignUp from '../components/flexibles/EmailSignUp/cms'
 
 export default [
   text,
@@ -20,4 +21,5 @@ export default [
   tourList,
   buyAlbum,
   sponsorLogoList,
+  emailSignUp,
 ]

@@ -20,7 +20,11 @@
 .sponsor-logo-list__image {
   flex: 1;
   max-width: 13rem;
-  margin: gap(medium) gap(huge);
+  margin: gap(medium) 0;
+
+  @include bp-min(tiny) {
+    margin: gap(medium) gap(huge);
+  }
 }
 .sponsor-logo-list__text {
   @include constrain(tiny);

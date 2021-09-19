@@ -1,0 +1,49 @@
+@import '../../../styles/base.scss';
+
+.email-sign-up {
+  padding: gap(small);
+  background-color: $blue-gray-light;
+  background-image: linear-gradient($blue-gray-light, $blue-gray-dark);
+
+  @include bp-min(medium) {
+    margin: 0 gap(large);
+  }
+}
+
+.email-sign-up__inner {
+  @include block(medium-large);
+  @include row(medium);
+
+  @include bp-min(medium) {
+    display: flex;
+  }
+}
+
+.email-sign-up__love-letter {
+  display: none;
+  color: $color-secondary;
+
+  @include bp-min(medium) {
+    display: block;
+    width: 100%;
+    max-width: 8rem;
+    margin-right: gap(large);
+  }
+  @include bp-min(large) {
+    max-width: 10rem;
+    margin-right: gap(huge);
+  }
+}
+.email-sign-up__love-letter-svg {
+  width: 100%;
+}
+
+.email-sign-up__title {
+  @include heading-large;
+  margin-bottom: gap(small);
+}
+.email-sign-up__text {
+  @include bp-min(medium) {
+    margin-bottom: gap(large);
+  }
+}

@@ -4,4 +4,4 @@ import singles from './singles'
 import globals from './globals'
 import gigs from './gigs'
 
-export default [bandMembers, pages, singles, globals, gigs]
+export default [pages, singles, gigs, bandMembers, globals]

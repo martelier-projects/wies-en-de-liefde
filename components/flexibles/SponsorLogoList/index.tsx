@@ -7,7 +7,6 @@ export default function SponsorLogoList({
   text,
   logos,
 }: SponsorLogoListInterface) {
-  console.log('logos: ', logos)
   return (
     <section className={styles['sponsor-logo-list']}>
       {title && <h2 className={styles['sponsor-logo-list__title']}>{title}</h2>}

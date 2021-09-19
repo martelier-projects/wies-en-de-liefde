@@ -1,13 +1,15 @@
 @import '../../../styles/base.scss';
 
 .email-sign-up label {
+  @include text-small;
   display: block;
 }
 .email-sign-up input {
   font-size: inherit;
+  line-height: 1;
 }
 .email-sign-up input[type='email'] {
-  margin: 0.5rem 0;
+  margin: 0.2rem gap(small) 0 0;
   padding: 0.5rem 0.8rem;
   border: none;
 
@@ -15,10 +17,13 @@
     min-width: 20rem;
   }
 }
-.email-sign-up input[type='submit'] {
-  padding: 0.5rem 0.8rem;
+.email-sign-up button[type='submit'] {
+  @include bare-button;
+  padding: 0.6rem 0.8rem;
   background-color: $color-primary;
   color: $white;
+  font-size: inherit;
+  line-height: 1;
   border: none;
 
   transition: background-color 150ms ease-in-out;
@@ -28,4 +33,10 @@
     background-color: $color-primary-light;
     cursor: pointer;
   }
+}
+
+.email-sign-up__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
