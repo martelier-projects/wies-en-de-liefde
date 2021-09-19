@@ -15,7 +15,8 @@ export default interface Footer {
   }
 
   newsletter: {
-    title: string
+    title?: string
+    text?: string
     label: string
     submit: string
   }

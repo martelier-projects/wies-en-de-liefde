@@ -67,7 +67,13 @@ export default {
           label: 'Nieuwsbrief titel',
           name: 'title',
           widget: 'string',
-          required: true,
+          required: false,
+        },
+        {
+          label: 'Nieuwsbrief text',
+          name: 'text',
+          widget: 'string',
+          required: false,
         },
         {
           label: 'Label',

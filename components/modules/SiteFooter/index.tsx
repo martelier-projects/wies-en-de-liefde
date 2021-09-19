@@ -14,7 +14,7 @@ export default function SiteFooter() {
     attributes
 
   return (
-    <div id="contact" className={styles['site-footer']}>
+    <footer id="contact" className={styles['site-footer']}>
       <div className={styles['inner']}>
         <div className={styles['section']}>
           <h2 className={styles['title']}>{mainContent.title}</h2>
@@ -47,11 +47,12 @@ export default function SiteFooter() {
         <div className={styles['section']}>
           <EmailSignUp
             title={newsletter.title}
+            text={newsletter.text}
             label={newsletter.label}
             submit={newsletter.submit}
           />
         </div>
       </div>
-    </div>
+    </footer>
   )
 }

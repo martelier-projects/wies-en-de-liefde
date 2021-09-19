@@ -16,11 +16,12 @@ foundation:
     - label: RSIN
       value: "856344205"
 newsletter:
-  title: Wil je weten waar je ons live kunt zien en wil je als eerste op de hoogte
-    worden gehouden van alle informatie over Wies en de Liefde? Meld je dan aan
-    voor onze Liefdesbrief.
+  title: Nieuwsbrief
   label: Email Adres
   submit: Aanmelden
+  text: Wil je weten waar je ons live kunt zien en wil je als eerste op de hoogte
+    worden gehouden van alle informatie over Wies en de Liefde? Meld je dan aan
+    voor onze Liefdesbrief.
 socialMedia:
   facebookUrl: https://www.facebook.com/wiesendeliefde
   instagramUrl: https://www.instagram.com/wies.en.de.liefde/

@@ -7,7 +7,6 @@ import normalize from '../utils/content/normalize'
 export default function createStore(path: string, id: string) {
   const directory = join(process.cwd(), path)
   const items = getAllItems(directory).map(fixDateFormat)
-  console.log('items: ', items)
 
   return normalize(id)(items)
 }
