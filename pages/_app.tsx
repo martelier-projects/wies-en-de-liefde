@@ -18,7 +18,6 @@ export default function App({ Component, pageProps }: AppProps) {
     }
 
     // Initialize GA.
-    // const debug = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_DEBUG === 'true'
     ReactGA.initialize(process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID)
     ReactGA.set({ anonymizeIp: true })
 

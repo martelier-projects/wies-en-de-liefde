@@ -23,11 +23,10 @@ export default function TourList() {
       ...item,
       calcDate: formatDate(item.date),
     }))
-    .sort((a, b) => {
-      if (new Date(b.calcDate) > new Date(a.calcDate)) return -1
-      if (new Date(b.calcDate) < new Date(a.calcDate)) return 1
-      return 0
-    })
+    .sort(
+      (a, b) => new Date(b.calcDate).getTime() - new Date(a.calcDate).getTime()
+    )
+    .reverse()
 
   return (
     <div className={styles['tour-list']}>
