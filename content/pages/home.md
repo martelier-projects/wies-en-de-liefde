@@ -12,6 +12,12 @@ sections:
 
 
       Het album en de voorstelling beschrijven de complexiteit van de Liefde door de ogen van een levenslustige dertiger in een wereld waarbij haar eigen ontdekkingstocht soms taboedoorbrekend blijkt.
+  - type: gallery
+    component: gallery
+    items:
+      - image: /images/dscf3115.jpg
+        label: Foto's Jaap Kroon
+      - image: /images/dscf2965.jpg
   - type: video-embed
     location: right
     component: video-embed
@@ -87,12 +93,6 @@ sections:
   - type: band-members
     component: band-members
     title: De Band
-  - type: gallery
-    component: gallery
-    items:
-      - image: /images/dscf3115.jpg
-        label: Foto's Jaap Kroon
-      - image: /images/dscf2965.jpg
 seo:
   pageTitle: Wies en de Liefde
   pageDescription: "Wies en de Liefde maakt popmuziek met Nederlandstalige
