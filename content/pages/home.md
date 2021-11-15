@@ -87,6 +87,12 @@ sections:
   - type: band-members
     component: band-members
     title: De Band
+  - type: gallery
+    component: gallery
+    items:
+      - image: /images/dscf3115.jpg
+        label: Foto's Jaap Kroon
+      - image: /images/dscf2965.jpg
 seo:
   pageTitle: Wies en de Liefde
   pageDescription: "Wies en de Liefde maakt popmuziek met Nederlandstalige
