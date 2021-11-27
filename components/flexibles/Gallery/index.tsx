@@ -20,7 +20,7 @@ export default function Gallery({ items }: GalleryInterface) {
                 />
               </div>
             ) : (
-              <img src={`${image}?nf_resize=fit&w=600`} alt={label || ''} />
+              <img src={`${image}?nf_resize=fit&w=610`} alt={label || ''} />
             )}
 
             {label && (
