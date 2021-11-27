@@ -5,7 +5,11 @@ import { GigContext } from '../../../stores/gig/store'
 
 import styles from './styles.module.scss'
 
-const formatSingleNumber = (a: string) => (Number(a) <= 9 ? `0${a}` : a)
+/**
+ * Ensure the number is a double digit.
+ * Example: 1 => 01 || 10 => 10
+ */
+const doubleDigit = (a: string) => (Number(a) <= 9 ? `0${a}` : a)
 
 /**
  * Format the date from NL to EN.
@@ -14,9 +18,9 @@ const formatSingleNumber = (a: string) => (Number(a) <= 9 ? `0${a}` : a)
  */
 const formatDate = (date: string) => {
   const splitYear = date.split('-')
-  return `20${splitYear[2]}-${formatSingleNumber(
-    splitYear[1]
-  )}-${formatSingleNumber(splitYear[0])}`
+  return `20${splitYear[2]}-${doubleDigit(splitYear[1])}-${doubleDigit(
+    splitYear[0]
+  )}`
 }
 
 export default function TourList() {
