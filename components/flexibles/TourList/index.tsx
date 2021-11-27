@@ -5,6 +5,8 @@ import { GigContext } from '../../../stores/gig/store'
 
 import styles from './styles.module.scss'
 
+const formatSingleNumber = (a: string) => (Number(a) <= 9 ? `0${a}` : a)
+
 /**
  * Format the date from NL to EN.
  * @param date
@@ -12,7 +14,9 @@ import styles from './styles.module.scss'
  */
 const formatDate = (date: string) => {
   const splitYear = date.split('-')
-  return `20${splitYear[2]}-${splitYear[1]}-${splitYear[0]}`
+  return `20${splitYear[2]}-${formatSingleNumber(
+    splitYear[1]
+  )}-${formatSingleNumber(splitYear[0])}`
 }
 
 export default function TourList() {
@@ -24,9 +28,8 @@ export default function TourList() {
       calcDate: formatDate(item.date),
     }))
     .sort(
-      (a, b) => new Date(b.calcDate).getTime() - new Date(a.calcDate).getTime()
+      (a, b) => new Date(a.calcDate).getTime() - new Date(b.calcDate).getTime()
     )
-    .reverse()
 
   return (
     <div className={styles['tour-list']}>

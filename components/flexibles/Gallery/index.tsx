@@ -5,8 +5,11 @@ import styles from './styles.module.scss'
 export default function Gallery({ items }: GalleryInterface) {
   return (
     <ul className={styles['gallery']}>
-      {items.map(({ label, embedUrl, image }) => (
-        <li key={label} className={styles['gallery__item']}>
+      {items.map(({ label, embedUrl, image }, index) => (
+        <li
+          key={`gallery-item-${label}-${index}`}
+          className={styles['gallery__item']}
+        >
           <figure className={styles['figure']}>
             {embedUrl ? (
               <div className={styles['embed-wrapper']}>
