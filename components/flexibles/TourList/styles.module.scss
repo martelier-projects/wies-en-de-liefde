@@ -42,3 +42,23 @@
 .tour-list__venue {
   display: inline-block;
 }
+
+/**
+ * Cancelled
+ */
+.tour-list__cancelled {
+  margin: -1.5rem 0 1rem;
+  color: red;
+}
+
+/**
+ * In past
+ */
+[data-is-in-past='true'],
+[data-is-cancelled='true'] {
+  .tour-list__location,
+  .tour-list__place,
+  .tour-list__date {
+    color: $grey;
+  }
+}

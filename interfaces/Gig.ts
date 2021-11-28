@@ -3,4 +3,5 @@ export default interface Gig {
   venue: string
   date: string
   url?: string
+  isCancelled?: boolean
 }

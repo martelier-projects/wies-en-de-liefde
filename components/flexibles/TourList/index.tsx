@@ -23,6 +23,16 @@ const formatDate = (date: string) => {
   )}`
 }
 
+/**
+ * Check if the date is in the past.
+ */
+const isInPast = (date: string) => {
+  const today = new Date()
+  const tourDate = new Date(date)
+
+  return today > tourDate
+}
+
 export default function TourList() {
   const gigStore = useContext(GigContext)
   const gigs = gigStore.allIds
@@ -52,17 +62,26 @@ export default function TourList() {
                 {` `}
                 <span className={styles['tour-list__place']}>{item.place}</span>
               </span>
+
+              {item.isCancelled && (
+                <p className={styles['tour-list__cancelled']}>Geannuleerd</p>
+              )}
             </p>
           )
 
           return (
-            <li key={`${item.venue}-${index}`}>
-              {item.url ? (
+            <li
+              key={`${item.venue}-${index}`}
+              className={styles['tour-list__item']}
+              data-is-in-past={isInPast(item.calcDate)}
+              data-is-cancelled={item.isCancelled}
+            >
+              {isInPast(item.calcDate) || !item.url || item.isCancelled ? (
+                inner
+              ) : (
                 <Link href={item.url}>
                   <a className={styles['tour-list__link']}>{inner}</a>
                 </Link>
-              ) : (
-                inner
               )}
             </li>
           )

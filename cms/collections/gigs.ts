@@ -33,5 +33,12 @@ export default {
       format: 'D-M-YY',
       required: true,
     },
+    {
+      label: 'Gig is cancelled',
+      name: 'isCancelled',
+      widget: 'boolean',
+      default: false,
+      required: true,
+    },
   ],
 }
