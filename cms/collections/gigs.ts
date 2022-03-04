@@ -3,7 +3,7 @@ export default {
   name: 'Gigs',
   create: true,
   folder: 'content/gigs',
-  summary: 'Gig | {{fields.place}}, {{fields.venue}}',
+  summary: '({{fields.date}}) {{fields.place}}, {{fields.venue}}',
   editor: {
     preview: false,
   },
@@ -38,7 +38,7 @@ export default {
       name: 'isCancelled',
       widget: 'boolean',
       default: false,
-      required: true,
+      required: false,
     },
   ],
 }
