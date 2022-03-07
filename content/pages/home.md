@@ -57,8 +57,9 @@ sections:
   - type: sponsor-logo-list
     component: sponsor-logo-list
     title: ""
-    text: ZonderDagen kan mede bestaan door de hulp van het Norma Fonds en NH Pop,
-      PopKanjers
+    text: "ZonderDagen kan mede bestaan door de hulp van het Norma Fonds, NH Pop,
+      PopKanjers, Prins Bernhard Cultuurfonds, Podium Victorie en het
+      Makersloket Gemeente Bergen "
     logos:
       - image: /images/header-popkanjers2-logo.png
         alt: Pop Kanjers
@@ -66,6 +67,8 @@ sections:
         alt: NHPop
       - image: /images/norma-fonds-logo-kleur-hr-transparant.png
         alt: Norma fonds
+      - image: /images/pbcf_logo_oranje_rgb.png
+        alt: Prins Bernhard Cultuurfonds
   - type: column-text
     component: column-text
     horizontal: true
