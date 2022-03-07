@@ -1,8 +1,6 @@
 ---
 place: "Egmond "
-venue: Hoeve
-  Overslot                                                                                                                                                              (meer
-  info volgt
+venue: Hoeve Overslot (meer info volgt
   snel)                                                                                                                                          (meer
   info volgt snel)
 url: https://www.wiesendeliefde.nl/
