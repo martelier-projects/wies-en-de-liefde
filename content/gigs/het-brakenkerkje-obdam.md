@@ -1,7 +1,7 @@
 ---
 place: Obdam
 venue: Het Brakenkerkje
-url: https://www.podiumvictorie.nl/programma/wies-en-de-liefde-het-brakenkerkje-obdam-22/01/22
+url: https://www.podiumvictorie.nl/programma/wies-en-de-liefde-het-brakenkerkje-obdam
 date: 26-3-22
 isCancelled: false
 ---
