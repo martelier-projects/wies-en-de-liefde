@@ -54,6 +54,20 @@ sections:
       De verkoop is gestart. De tour ziet er als volgt uit:
   - type: tour-list
     component: tour-list
+  - type: column-text
+    horizontal: false
+    component: column-text
+    title: Extra Info Tickets
+    text: >-
+      Tickets voor Victorie on Tour koop je via de website van Podium Victorie.\
+
+      Dit betreft de shows in het Brakenkerkje, Vredeskerkje, Huis Verloren, Cultuurkoepel.\
+
+      \
+
+      Tickets voor de andere ZonderDagen Data, koop je via de theaters zelf. \
+
+      Klik op de naam van de locatie en je wordt vanzelf doorverwezen.
   - type: sponsor-logo-list
     component: sponsor-logo-list
     title: ""
