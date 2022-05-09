@@ -68,6 +68,13 @@ sections:
       Tickets voor de andere ZonderDagen Data, koop je via de theaters zelf. \
 
       Klik op de naam van de locatie en je wordt vanzelf doorverwezen.
+  - type: gallery
+    component: gallery
+    items:
+      - image: /images/wies-en-de-liefde-klein-zwitserland.jpeg
+        label: |-
+          ZonderDagen Afsluitingsweekend 
+          Tickets en eventueel diner mail naar info@wiesendeliefde.nl
   - type: sponsor-logo-list
     component: sponsor-logo-list
     title: ""
